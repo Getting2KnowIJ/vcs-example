@@ -1,5 +1,8 @@
 package com.getting2knowij.vcs;
 
+/**
+ * Prints out the name of the author.
+ */
 public class Hello {
   private static final String message = "Hello Git!";
   private static String author;
