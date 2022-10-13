@@ -5,7 +5,7 @@ import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 
 public class LogTest {
-  private Out out;
+  private StubOut out;
 
   @Test
   void shouldFailBecauseWeHaveNotWrittenThisYet() {
