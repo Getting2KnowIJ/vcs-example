@@ -5,9 +5,18 @@ import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 
 public class LogTest {
+  private Out out;
+
   @Test
-  @Disabled
   void shouldFailBecauseWeHaveNotWrittenThisYet() {
-    Assertions.fail();
+    // given
+    Log log = new Log(out);
+    String message = "message";
+
+    // when
+    log.info(message);
+
+    // then
+    Assertions.assertTrue(out.hasOutput(message));
   }
 }
