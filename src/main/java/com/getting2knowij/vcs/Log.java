@@ -1,8 +1,10 @@
 package com.getting2knowij.vcs;
 
 public class Log {
-  public Log(Out out) {
+  private Out out;
 
+  public Log(Out out) {
+    this.out = out;
   }
 
   public void info(String message) {
