@@ -5,7 +5,7 @@ import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 
 public class LogTest {
-  private final StubOut out = new StubOut();
+  private final StubOut out = new StubOut("LogTest");
 
   @Test
   @Disabled
