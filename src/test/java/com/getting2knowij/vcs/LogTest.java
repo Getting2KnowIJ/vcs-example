@@ -8,7 +8,7 @@ public class LogTest {
   private final StubOut out = new StubOut();
 
   @Test
-  void shouldFailBecauseWeHaveNotWrittenThisYet() {
+  void shouldPrintLogMessageToTheGivenOutput() {
     // given
     Log log = new Log(out);
     String message = "message";
@@ -18,5 +18,9 @@ public class LogTest {
 
     // then
     Assertions.assertTrue(out.hasOutput(message));
+  }
+
+  public void unusedMethod() {
+    //TODO: should fail to commit first time because of a new warning
   }
 }
