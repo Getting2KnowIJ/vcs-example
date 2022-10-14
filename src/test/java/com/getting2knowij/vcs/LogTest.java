@@ -14,7 +14,7 @@ public class LogTest {
   }
 
   @Test
-  void shouldPrintLogMessageToTheGivenOutput() {
+  void shouldPrintMessageToTheGivenOutputAsInfo() {
     // given
     Log log = new Log(out);
     String message = "message";
@@ -27,6 +27,6 @@ public class LogTest {
   }
 
   public void unusedMethod() {
-    //TODO: should fail to commit first time because of a new warning
+    // do we need this?
   }
 }
