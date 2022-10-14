@@ -8,6 +8,12 @@ public class LogTest {
   private final StubOut out = new StubOut();
 
   @Test
+  @Disabled
+  void shouldFailBecauseWeHaveNotWrittenThisYet() {
+    Assertions.fail();
+  }
+
+  @Test
   void shouldPrintLogMessageToTheGivenOutput() {
     // given
     Log log = new Log(out);
