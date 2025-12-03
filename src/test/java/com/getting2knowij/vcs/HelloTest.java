@@ -10,6 +10,11 @@ class HelloTest {
     Hello hello = new Hello();
 
 
-    assertEquals("Hello Git!", hello.getMessage());
+    assertEquals("Hello there Git!", hello.getMessage());
+  }
+
+  @Test
+  void name() {
+    //more changes
   }
 }
