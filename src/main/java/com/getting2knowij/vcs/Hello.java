@@ -3,6 +3,7 @@ package com.getting2knowij.vcs;
 public class Hello {
   private static final String message = "Hello Git!";
   private static String author;
+  private static int thing = 0;
 
   public static void main(String[] args) {
     if (args.length == 0) {
