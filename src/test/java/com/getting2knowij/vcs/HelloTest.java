@@ -9,12 +9,7 @@ class HelloTest {
   void shouldReturnCorrectString() {
     Hello hello = new Hello();
 
-
-    assertEquals("Hello there Git!", hello.getMessage());
+    assertEquals("Hello Git!", hello.getMessage());
   }
 
-  @Test
-  void name() {
-    //more changes
-  }
 }
